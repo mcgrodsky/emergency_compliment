@@ -17,17 +17,13 @@ app.get("/", function(req, res){
 });
 
 // create
-app.post("/compliments", complimentsController.create);
 
 // new
-app.get("/compliments/new", complimentsController.new);
 
 // show
-app.get("/compliments/:id", complimentsController.show);
 
 
 // edit
-  app.get("/compliments/:id/edit", complimentsController.edit);
 
 // update
  // update route code goes here...
