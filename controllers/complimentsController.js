@@ -20,7 +20,9 @@ var complimentsController = {
     res.redirect("/compliments")
   }
   // edit action code goes here...
-
+  edit:function(req,res){
+    
+  }
  // update action code goes here...
 }
 
