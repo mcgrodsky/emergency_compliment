@@ -1,7 +1,6 @@
 {
   "name": "emergency_compliment",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +12,14 @@
     "express": "^4.13.3",
     "hbs": "^4.0.0",
     "method-override": "^2.3.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcgrodsky/emergency_compliment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mcgrodsky/emergency_compliment/issues"
+  },
+  "homepage": "https://github.com/mcgrodsky/emergency_compliment#readme",
+  "description": ""
 }
