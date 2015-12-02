@@ -18,10 +18,13 @@ var complimentsController = {
     var compliment = Compliment.create(req.body.compliment)
     // redirect to compliment
     res.redirect("/compliments")
-  }
+  },
   // edit action code goes here...
 
- // update action code goes here...
+  update: function(req, res){
+
+    //update fuction here
+  }
 }
 
 module.exports = complimentsController;
